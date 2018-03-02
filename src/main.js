@@ -5,8 +5,8 @@ import VueResource from 'vue-resource'
 
 Vue.use(VueResource)
 
-//Vue.http.options.root = 'http://192.168.0.180:5984'
-Vue.http.options.root = 'http://127.0.0.1:5984'
+Vue.http.options.root = 'http://192.168.0.180:5984'
+//Vue.http.options.root = 'http://127.0.0.1:5984'
 
 new Vue({
   el: '#app',
